@@ -9,7 +9,7 @@ http://cookieclicker.wikia.com/wiki/Cookie_Monster_(JavaScript_Add-on)
 
 To use the mod add a bookmark/paste this into console:
 
-javascript:(function() {
-    Game.LoadMod('http://aktanusa.github.io/CookieMonster/CookieMonster.js');
-    Game.LoadMod('https://raw.githubusercontent.com/Pomlon/CookieCheater/master/cookieCheater.js');
-}());
+    javascript:(function() {
+        Game.LoadMod('http://aktanusa.github.io/CookieMonster/CookieMonster.js');
+        Game.LoadMod('https://raw.githubusercontent.com/Pomlon/CookieCheater/master/cookieCheater.js');
+    }());
