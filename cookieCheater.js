@@ -61,5 +61,5 @@ CBOT.stopGoldenClicker = function(){
     clearInterval(CBOT.autoGoldenCookieObject);
 }
 
-CBOT.insertHTML = "<button id='CBOTstartClick' onclick='CBOT.autoClick()'>Start click</button> <button id='CBOTstopClick' onclick='CBOT.stopClick()'>Stop click</button><br><button id='CBOTautoBuy' onclick='CBOT.startAutoBuy()'>AutoBuy</button> <button id='CBOTstopBuy' onclick = 'CBOT.stopAutoBuy'>Stop AutoBuy</button><br><button id='CBOTstartAutoGoldCookie' onclick='CBOT.startGoldenClicker()'>auto GCookie</button> <button id='CBOTstopAutoGoldCookie' onclick = 'stopGoldenClicker'>stop auto GCookie</button>";
+CBOT.insertHTML = "<button id='CBOTstartClick' onclick='CBOT.autoClick()'>Start click</button> <button id='CBOTstopClick' onclick='CBOT.stopClick()'>Stop click</button><br><button id='CBOTautoBuy' onclick='CBOT.startAutoBuy()'>AutoBuy</button> <button id='CBOTstopBuy' onclick = 'CBOT.stopAutoBuy()'>Stop AutoBuy</button><br><button id='CBOTstartAutoGoldCookie' onclick='CBOT.startGoldenClicker()'>auto GCookie</button> <button id='CBOTstopAutoGoldCookie' onclick = 'stopGoldenClicker()'>stop auto GCookie</button>";
 document.getElementById("comments").insertAdjacentHTML("beforeBegin", "<div id='CBOTControl' style='z-index: 99999999; background-color: black; position: relative; top: 0px; left: 100px; width: 175px; height: 50px;'>" + CBOT.insertHTML + " </div>");
