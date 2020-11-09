@@ -38,9 +38,9 @@ CBOT.autoGoldenCookie = function(){
     tings = $(this).css('height') == '96px';
     return tings
 }).each(function() {
-   this.each(function(){
+   
     this.click()
-   })
+
 });
 }
 
