@@ -32,7 +32,16 @@ CBOT.autoClick = function(){
 }
 
 CBOT.autoGoldenCookie = function(){
-    $('#goldenCookie').click();
+    $('*').filter(function() {
+    tings = $(this).css('z-index') == 2147483647;
+    tings = $(this).css('width') == '96px';
+    tings = $(this).css('height') == '96px';
+    return tings
+}).each(function() {
+   this.each(function(){
+    this.click()
+   })
+});
 }
 
 CBOT.stopClick = function(){
